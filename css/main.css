@@ -1,0 +1,461 @@
+@font-face {
+    font-family: 'bonanova bold';
+    src: url('../fonts/Bona\ Nova\ Bold.otf') ;
+    font-family: 'bonanova italic';
+    src: url('../fonts/Bona\ Nova\ Italic.otf') ;
+    font-family: 'bonanova regular';
+    src: url('../fonts/Bona\ Nova\ Regular.otf'); 
+    
+
+ 
+  }
+
+
+body {
+
+    margin: 0;
+
+}
+.background{
+
+    background-image: url("../pics/main1.jpg");
+    background-color: white;
+    height: 616px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+
+}
+
+.navbar {
+
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    align-items: center;
+    height: 50px;
+    color: white;
+}
+
+.navbarlogo {
+
+
+    background-image: url(../pics/logo.svg);
+    justify-self: center;
+    display: block;
+    width: 230px;
+    height: 105px;
+    background-size: 190px 116px;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+
+}
+
+.navbarmenu{
+
+    width: 90%;
+    justify-self: end;
+    background-color: white;
+    height: 152px;
+    margin-top: 0px;
+    padding-top: 0px;
+    border-bottom: 2px solid #D00A36;
+    
+}
+
+.wrapper1 {
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+
+.wrapper1_1{
+
+    color: black;
+    display: grid;
+    grid-template-columns:  3fr 1fr;
+
+}
+.wrapper1_1_1{
+
+    color: black;
+    display: grid;
+    margin-top: 42px;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+
+.wrapper1_1_1 p:nth-child(2) {
+
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    justify-self: center;
+
+
+}
+.wrapper1_1_1 p:nth-child(1) {
+
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    justify-self: center;
+    padding-left: 23px;
+
+}
+
+a{
+
+    color: black;
+    text-decoration: none;
+
+}
+.button1 a{
+
+    color: white;
+
+}
+
+
+
+.lang {
+
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+}
+
+
+.lang p:nth-child(1){
+
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    justify-self: end;
+
+}
+.lang p:nth-child(2){
+
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    justify-self: start;
+
+}
+
+
+.lang p:nth-child(1)::after{
+
+   content: " | ";
+   font-family: 'Lato', sans-serif;
+   font-size: 14px;
+   font-weight: 900;
+   padding-left: 6px;
+   padding-right: 6px;
+}
+.button1{
+
+    color: white;
+    border: none;
+    padding: 14px 33px;
+    border-radius: 28px;
+    background-color: #D00A36;
+    outline: none;
+    align-self: center;
+    margin-top: 39px;
+    margin-left: 9px;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.button1:hover{
+
+    background-color: white;
+    border: 1px solid #D00A36 ;
+    color: #D00A36;
+
+}
+
+.wrapper1_1_2{
+
+    color: black;
+}
+
+.ligne {
+
+    border-bottom: .4px solid grey;
+    margin-left: 23px;
+    width: 61%;
+    opacity: 50%;
+}
+
+#ul1 {
+
+
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    text-decoration: none;
+    list-style: none;
+    padding-left: 16px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+}
+
+ #li1 {
+
+    color: black;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+
+    
+}
+
+a:hover {
+
+    color: #D00A36;
+
+}
+
+.wrapper2{
+
+    display: grid;
+    padding-left: 12%;
+    margin-top: 124px;
+    /* margin-left: 160px; */
+
+}
+
+
+.wrapper2 h1{
+
+    font-family: 'bonanova regular';
+    font-size: 57px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 0px;
+
+}
+
+.wrapper2 p{
+
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    line-height: 25px;
+
+}
+
+.location {
+
+
+    color: white;
+    margin-right: 3px;
+
+}
+
+.button2{
+
+    color: white;
+    border: none;
+    padding: 14px 4px;
+    border-radius: 28px;
+    background-color: #D00A36;
+    outline: none;
+    align-self: center;
+    margin-top: 39px;
+    margin-left: 9px;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    width: 227px;
+    margin-top: 0px;
+    margin-left: 0px;
+    cursor: pointer;
+
+}
+
+.button2:hover .location {
+
+    color: #D00A36;
+    margin-right: 3px;
+
+
+}
+.button2:hover{
+
+        background-color: white;
+        border: 1px solid #D00A36 ;
+        color: #D00A36;
+}
+
+#menu2 {
+
+    display: none;
+    color: white;
+    justify-self: end;
+    padding-right: 36px;
+    font-size: 48px;
+    cursor: pointer;
+}
+
+.modal{
+
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 4; /* Sit on top */
+    padding-top: 45px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow-y: hidden;
+    background-color: #D00A36 /* Black w/ opacity */;
+    -webkit-animation-name: animatemodal;
+    -webkit-animation-duration: 0.6s;
+    animation-name: animatemodal;
+    animation-duration: 0.6s;
+
+
+}
+
+.close {
+
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    float: right;
+    position: relative;
+    align-self: start;
+    justify-self: end;
+    padding-right: 28px;
+
+
+  }
+
+  .navcontain{
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+
+  }
+
+  .navbarlogo2 {
+
+    background-image: url(../pics/logo.svg);
+    justify-self: start;
+    display: block;
+    width: 230px;
+    height: 105px;
+    background-size: 190px 116px;
+    background-repeat: no-repeat;
+    margin-left: 21px;
+
+}
+
+#ul2{   
+
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    color: white;
+    list-style: none;
+    margin-top: 37px;
+
+
+}
+
+#ul2 li {
+
+    color: white;
+    align-self: center;
+    justify-self: center;
+    padding-bottom: 11px;
+}
+
+
+#ul2 li a {
+
+    color: white;
+    font-size: 52px;
+    font-family: 'Lato', sans-serif;
+    opacity: 0.7;
+
+}
+
+#ul2 li a:hover {
+
+    opacity: 1;
+
+}
+
+
+@keyframes animatemodal {
+    from {left:100px; opacity:0}
+    to {left:0; opacity:1}
+  }
+
+
+/* Media Query  */
+
+@media only screen and (max-width: 1139px) {
+
+
+    .navbarmenu {
+
+        display: none;
+    }
+
+    #menu2{
+
+        display: block;
+
+    }
+ 
+ 
+   
+  }
+
+
+  @media only screen and (max-width: 379px) {
+    #ul2 li {
+
+        justify-self: start;
+
+    }
+
+    #ul2 li a {
+
+        font-size: 49px;
+
+
+    }
+
+  }
+
+  @media only screen and (max-width: 340px) {
+
+    #ul2 li {
+
+        justify-self: start;
+
+    }
+
+    #ul2 li a {
+
+        font-size: 39px;
+
+
+    }
+
+
+  }
+
+
+
+
+
